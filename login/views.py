@@ -41,5 +41,3 @@ def registration(request):
 
     context = {'form':form}
     return render(request, 'login/register.html', context)
-
-# Create your views here.
